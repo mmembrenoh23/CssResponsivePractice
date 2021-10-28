@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica css</title>
+    <link rel="stylesheet" type="text/css" href="./resources/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="head">
+            <h1>
+                My Website
+            </h1>
+            <p>Resize the browser window to see the effect</p>
+        </div>   
+        <nav class="main-nav">
+            <div class="burger-nav" onclick="addClassMobile();">
+                <i class="fas fa-bars"></i>
+            </div>
+            <a href="#" class="nav-item">Home</a>
+            <a href="#" class="nav-item">About</a>
+            <a href="#" class="nav-item">Services</a>
+            <a href="#" class="nav-item">Contact Us</a>
+        </nav>
+    </header>
+    <section class="container row main clear-fix">
+        <section class="posts column col-8">
+            <article class="post">
+                <div class="image">
+                    <h2 class="title">Title</h2>
+                    <h3 class="description">Title description, <span class="date">Dec 7, 2017</span></h3>      
+                </div>                        
+                
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p> 
+                <p>Cupiditate iste perspiciatis deserunt ullam autem tenetur eius, maiores iusto dolore. </p>
+                <p>Laborum aliquam ratione nemo delectus sit earum voluptate quis maiores id.</p>
+                <a href="#" class="readmore col-4"> Read More</a>
+            </article>
+             <article class="post">
+                 <div class="image">
+                    <h2 class="title">Title</h2>
+                    <h3 class="description">Title description, <span class="date">Dec 7, 2017</span></h3>      
+                </div>       
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p> 
+                <p>Cupiditate iste perspiciatis deserunt ullam autem tenetur eius, maiores iusto dolore. </p>
+                <p>Laborum aliquam ratione nemo delectus sit earum voluptate quis maiores id.</p>
+                <a href="#" class="readmore col-4"> Read More</a>
+            </article>
+        </section>
+        <aside class="sidebar column col-4">
+            <div class="info">
+                <h2 class="title">About Me</h2>
+                <div class="image">Image</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="info">
+                <h2 class="title">Popular posts</h2>
+                <div class="image">Image</div>
+                <div class="image">Image</div>
+                <div class="image">Image</div>
+            </div>
+            <div class="info">
+                <h2 class="title">Follow me</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a class="fab fa-facebook" href="#"></a>
+                <a class="fab fa-twitter" href="#"></a>
+                <a class="fab fa-youtube" href="#"></a>
+
+            </div>
+        </aside>
+    </section>
+    <footer class="footer container">
+        <div class="inner-footer clear-fix">
+            <div class="column col-2">
+                <ul class="list menu-footer">
+                    <li><i class="fas fa-chevron-right"></i><a href="#" class="menuitem">Home</a> </li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#" class="menuitem">About Us</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#" class="menuitem">Services</a></li>
+                    <li><i class="fas fa-chevron-right"></i><a href="#" class="menuitem">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="column col-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga commodi et, sed totam ducimus non dolor, quisquam aspernatur tenetur similique? Perspiciatis incidunt minus similique quas voluptatem! Eius, molestias dolore?</p>
+            </div>
+            <div class="column col-6">
+                <form action="" class="contact-form">
+                    <div class="wrap-input clear-fix">
+                        <label for="txtName" class="column col-3">Name:</label>
+                        <input type="text" class="input-form column col-9" name="txtName" placeholder="Enter Name">
+                    </div>
+                    <div class="wrap-input clear-fix">
+                        <label for="txtEmail" class="column col-3">Email:</label>
+                        <input type="email" class="input-form column col-9" name="txtEmail" placeholder="Enter Email">
+                    </div>
+                    <div class="wrap-input clear-fix">
+                        <label for="txtMessage" class="column col-3">Message:</label>
+                        <textarea name="txtMessage" id="txtMessage" cols="10" rows="5" class="column col-9 input-form"  placeholder="Enter Message"></textarea>
+                    </div>
+                    <button class="btn-submit" type="button"><i class="fas fa-paper-plane"></i> Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright-footer clear-fix">            
+            <a href="#" class="copyright column">Copyright &copy;</a>
+            <p class="column">Power By<span class="powerby">Maria Membreño</span></p>
+        </div>
+    </footer>
+    <script src="resources/js/script.js"></script>
+</body>
+</html>
